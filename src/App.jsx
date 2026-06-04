@@ -213,10 +213,6 @@ function App() {
                 <Download size={19} aria-hidden="true" />
                 Download Topix
               </a>
-              <a className="button secondary" href="#features">
-                <Sparkles size={18} aria-hidden="true" />
-                See the flow
-              </a>
             </div>
           </div>
 

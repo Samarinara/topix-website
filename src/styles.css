@@ -160,13 +160,13 @@ p {
 }
 
 h1 {
-    margin-bottom: 22px;
+    margin-bottom: 30px;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(3.25rem, 7.4vw, 7.6rem);
+    font-size: clamp(3.25rem, 7.4vw, 7.5rem);
     font-weight: 400;
-    line-height: 1.1;
+    line-height: 1.05;
     letter-spacing: 0;
-    max-width: 10.2ch;
+    max-width: 10ch;
 }
 
 .headline-static,

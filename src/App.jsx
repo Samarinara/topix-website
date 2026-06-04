@@ -196,7 +196,7 @@ function App() {
         <div className="hero-content">
           <div className="hero-copy">
             <h1 id="hero-title">
-              <span className="headline-static">Topix is a place for</span>
+              <span className="headline-static">Topix is your app for</span>
               <span className="topic-slot" aria-live="polite">
                 <span key={activeTopic.name} className="topic-word">
                   {activeTopic.name}
@@ -204,9 +204,8 @@ function App() {
               </span>
             </h1>
             <p className="hero-subcopy">
-              A fast notes app with user-defined topics, tactile category
-              switching, and a glow that follows the thing you are thinking
-              about.
+              The only notes app where you're always a swipe away from a fresh
+              thought.
             </p>
             <div className="hero-actions">
               <a className="button primary" href={releaseUrl}>
@@ -243,10 +242,6 @@ function App() {
                   </button>
                 ))}
               </div>
-              <button className="new-topic" type="button">
-                <span aria-hidden="true">+</span>
-                New Topic
-              </button>
             </div>
           </div>
         </div>
@@ -254,11 +249,11 @@ function App() {
 
       <section className="intro-section" aria-labelledby="intro-title">
         <div className="section-inner">
-          <h2 id="intro-title">Sort thoughts before they turn into clutter.</h2>
+          <h2 id="intro-title">Never lose a thought again.</h2>
           <p>
-            Topix gives every note a home. Define the topics you care about,
-            flip between them with a rolodex-style picker, and keep each stream
-            of ideas close without forcing everything into folders.
+            Because of the smooth interface and category picker, Topix is the
+            perfect home for quick items to jot down. No more lost ideas or
+            forgotten words that were too small for a traditional notes app.
           </p>
         </div>
       </section>

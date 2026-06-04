@@ -50,7 +50,7 @@ button {
             var(--topic-glow),
             transparent 20rem
         ),
-        linear-gradient(180deg, #030308 0%, #180007 46%, #050309 100%);
+        linear-gradient(180deg, #030308 0%, #0a0814 46%, #050309 100%);
 }
 
 .hero {
